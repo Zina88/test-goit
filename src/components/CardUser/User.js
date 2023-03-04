@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../assets/img/Logo.png';
-import picture from '../assets/img/picture.png';
-import ellips from '../assets/img/Ellipse.png';
+import logo from '../../assets/img/Logo.png';
+import picture from '../../assets/img/picture.png';
+import ellips from '../../assets/img/Ellipse.png';
 import css from './CardUser.module.css';
 import PropTypes from 'prop-types';
 
-import useLocalStorage from '../hooks/localStorage';
+import useLocalStorage from '../../hooks/localStorage';
 
-export const User = ({ users: { user, id, tweets, followers, avatar } }) => {
+export default function User({ users: { user, id, tweets, followers, avatar } }) {
 	const KEY_FOLLOWERS = `followers ${id}`;
 	const KEY_BTN = `btn ${id}`;
 
@@ -40,7 +40,7 @@ export const User = ({ users: { user, id, tweets, followers, avatar } }) => {
 					<img src={ellips} alt={ellips} />
 				</div>
 				<div className={css.wrapperPhoto}>
-					<img src={avatar} width="63" alt={user} />
+					<img className={css.avatar} src={avatar} alt={user} />
 				</div>
 			</div>
 
@@ -57,7 +57,7 @@ export const User = ({ users: { user, id, tweets, followers, avatar } }) => {
 			</button>
 		</div>
 	);
-};
+}
 
 User.propTypes = {
 	users: PropTypes.shape({

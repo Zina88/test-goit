@@ -1,8 +1,8 @@
-import { User } from './User.js';
-import css from './CardUser.module.css';
+import User from '../../components/CardUser';
+import css from './CardUserList.module.css';
 import PropTypes from 'prop-types';
 
-export default function CardUser({ users }) {
+export default function CardUserList({ users }) {
 	return (
 		<div className={css.container}>
 			{users.map(users => (
@@ -14,6 +14,6 @@ export default function CardUser({ users }) {
 	);
 }
 
-CardUser.propTypes = {
+CardUserList.propTypes = {
 	users: PropTypes.array,
 };
