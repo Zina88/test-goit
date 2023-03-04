@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"user": "Elon Reeve Musk",
+		"tweets": 777,
+		"followers": 100500,
+		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_people_man_black_afrikan_icon_225749.png"
+	},
+	{
+		"id": 2,
+		"user": "Adam Bond",
+		"tweets": 7,
+		"followers": 100,
+		"avatar": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043232-avatar-batman-comics-hero_113278.png"
+	},
+	{
+		"id": 3,
+		"user": "Mia Lambert",
+		"tweets": 67,
+		"followers": 1,
+		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_people_person_woman_curly_hair_icon_225742.png"
+	},
+	{
+		"id": 4,
+		"user": "Eva Bolt",
+		"tweets": 332,
+		"followers": 10023,
+		"avatar": "https://cdn.icon-icons.com/icons2/582/PNG/512/woman_icon-icons.com_55031.png"
+	},
+	{
+		"id": 5,
+		"user": "Kris Dorn",
+		"tweets": 83,
+		"followers": 1783,
+		"avatar": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043274-avatar-einstein-professor-scientist_113259.png"
+	},
+	{
+		"id": 6,
+		"user": "Chester Benn",
+		"tweets": 345,
+		"followers": 5679,
+		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_person_people_lgtbi_icon_225745.png"
+	}
+]
