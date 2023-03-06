@@ -4,41 +4,41 @@
 		"user": "Elon Reeve Musk",
 		"tweets": 777,
 		"followers": 100500,
-		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_people_man_black_afrikan_icon_225749.png"
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094341/icons/avatar_person_people_lgtbi_icon_225745_t8fgyp.png"
 	},
 	{
 		"id": 2,
 		"user": "Adam Bond",
-		"tweets": 7,
-		"followers": 100,
-		"avatar": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043232-avatar-batman-comics-hero_113278.png"
+		"tweets": 17,
+		"followers": 452300,
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094344/icons/4043232-avatar-batman-comics-hero_113278_ocxfck.png"
 	},
 	{
 		"id": 3,
 		"user": "Mia Lambert",
 		"tweets": 67,
 		"followers": 1,
-		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_people_person_woman_curly_hair_icon_225742.png"
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094341/icons/avatar_people_person_woman_black_pink_hair_icon_225746_lxna2i.png"
 	},
 	{
 		"id": 4,
 		"user": "Eva Bolt",
 		"tweets": 332,
 		"followers": 10023,
-		"avatar": "https://cdn.icon-icons.com/icons2/582/PNG/512/woman_icon-icons.com_55031.png"
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094341/icons/avatar_people_person_woman_curly_hair_icon_225742_ikolil.png"
 	},
 	{
 		"id": 5,
 		"user": "Kris Dorn",
 		"tweets": 83,
 		"followers": 1783,
-		"avatar": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043274-avatar-einstein-professor-scientist_113259.png"
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094341/icons/beard_man_people_person_avatar_tramp_icon_225744_sqro8z.png"
 	},
 	{
 		"id": 6,
 		"user": "Chester Benn",
 		"tweets": 345,
 		"followers": 5679,
-		"avatar": "https://cdn.icon-icons.com/icons2/3579/PNG/512/avatar_person_people_lgtbi_icon_225745.png"
+		"avatar": "https://res.cloudinary.com/dwzyhamnv/image/upload/v1678094341/icons/avatar_people_man_black_afrikan_icon_225749_mn74de.png"
 	}
 ]

@@ -1,7 +1,5 @@
 import React from 'react';
 import logo from '../../assets/img/Logo.png';
-import picture from '../../assets/img/picture.png';
-import ellips from '../../assets/img/Ellipse.png';
 import css from './CardUser.module.css';
 import PropTypes from 'prop-types';
 
@@ -28,33 +26,25 @@ export default function User({ users: { user, id, tweets, followers, avatar } })
 
 	return (
 		<div className={css.card}>
-			<div className={css.wrapperLogo}>
+			<div className={css.wrapperBackground}>
 				<img src={logo} alt={logo} width="76" />
 			</div>
-			<div className={css.wrapperPicture}>
-				<img src={picture} alt={picture} width="308" />
-			</div>
 
-			<div className={css.line}>
-				<div className={css.wrapperEllipse}>
-					<img src={ellips} alt={ellips} />
-				</div>
+			<div className={css.wrapperTweets}>
 				<div className={css.wrapperPhoto}>
 					<img className={css.avatar} src={avatar} alt={user} />
 				</div>
+				<div className={css.tweets}>{tweets} tweets</div>
+				<div className={css.followers}>{withPoint} followers</div>
+				<button
+					onClick={() => {
+						toggleBtn(id);
+					}}
+					className={!btn ? css.btnFollow : css.btnFollowing}
+				>
+					{!btn ? 'Follow' : 'Following'}
+				</button>
 			</div>
-
-			<div className={css.tweets}>{tweets} tweets</div>
-			<div className={css.followers}>{withPoint} followers</div>
-
-			<button
-				onClick={() => {
-					toggleBtn(id);
-				}}
-				className={!btn ? css.btnFollow : css.btnFollowing}
-			>
-				{!btn ? 'Follow' : 'Following'}
-			</button>
 		</div>
 	);
 }
